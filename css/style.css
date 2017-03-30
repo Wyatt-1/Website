@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+}
+.w-vsidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 3.5rem;
+    /*background-color: rgba(0,0,0,0.3); */
+    background-color: RGBA(200,200,200,0.4);
+}
+.w-vsidebar ul {
+    list-style-type: none;
+}
+.w-bg {
+    background: url("../img/bg/yellowstone-park.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    z-index: -10;
+}
+.w-icon {
+    color: white;
+}
